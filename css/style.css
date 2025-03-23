@@ -1,0 +1,39 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(90deg ,rgba(252, 198, 144, 0.5), rgba(255, 219, 184, 0.5));
+}
+.header{
+    padding: 20px;
+    h1{
+        font-family: Garamond, serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    p{
+        font-size:20px;
+        text-align: center;
+    } 
+}
+.content-block{
+    padding: 20px;
+}
+article{
+    h3{
+        font-size: 25px;
+        padding-bottom:10px ;
+    }
+    h4{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+.article-one{
+    img{
+        float: left;
+        padding: 20px;
+    }
+}
