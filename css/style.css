@@ -21,9 +21,24 @@ body{
     } 
     a{
         text-decoration: none;
-        color: black;
+        color: #fff;
         font-family: inherit;
     }
+}
+.nav-bar ul{
+    display:flex;
+    flex-direction: row;
+    gap: 80px;
+    list-style: none;
+    background-color: black;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-block{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
 }
 .content-block{
     padding: 20px;
